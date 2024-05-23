@@ -10,6 +10,7 @@
     justify-content: center;
     align-items: center;
 }
+
 h2{
     color: black;
 }
@@ -23,4 +24,54 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Bonus */
+
+.box2{
+    background-color: #006cfa;
+    min-height: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    color: black;
+}
+
+.green-box2{
+    min-height: 60px;
+    min-width: 180px;
+    background-color: #00e165;
+    border: 2px solid #006cfa;
+    margin: 0 20px;
+}
+.width-90{
+    width: 90%;
+}
+
+#between{
+    justify-content: space-between;
+}
+
+#around{
+    justify-content: space-around;
+}
+
+
+
+/* regole aggiuntive flex oriented */
+
+.flex-basic{
+    display: flex;
+}
+
+.mrg-top-25px{
+    margin-top: 25px;
+}
+
+.mrg-top-50px{
+    margin-top: 50px;
 }
